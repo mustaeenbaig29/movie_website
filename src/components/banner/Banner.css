@@ -1,0 +1,30 @@
+.banner{
+    background-image: url(" https://webneel.com/wnet/file/images/11-16/8-xmen-movie-poster-design.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 50vh; 
+        background-size: cover;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+        background-size: contain; 
+        height: 50vh;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .banner {
+        height: 80vh; 
+    }
+}
